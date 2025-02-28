@@ -1,0 +1,6 @@
+192.168.60.100 haproxy-01.local haproxy-01  
+192.168.60.101 haproxy-02.local	haproxy-02
+192.168.60.102 haproxy-03.local haproxy-03
+192.168.60.103 postgres-01.local postgres-01
+192.168.60.104 postgres-02.local portgres-02
+192.168.60.105 postgres-03.local postgres-03
