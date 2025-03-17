@@ -18,7 +18,6 @@ Vagrant.configure("2") do |config|
                     "--medium", "#{disk_path}/#{name}_disk.vdi"]
     end
 
-    # Replace default Vagrant SSH key with your public key
     node.vm.provision "shell", inline: <<-SHELL
       mkdir -p /home/vagrant/.ssh
       echo "#{public_key.strip}" > /home/vagrant/.ssh/authorized_keys
